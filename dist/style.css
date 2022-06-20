@@ -1,0 +1,246 @@
+.wrap {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  
+}
+
+.left {
+  flex: 3;
+  background-color: beige;
+  padding: 0 10px 20px 50px;
+}
+
+.right {
+  flex: 7;
+  background-color: ivory;
+  padding: 40px 20px 20px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+/*最上面的方塊*/
+.header {
+  text-align: center;
+  background-image: url('https://i.imgur.com/WrvfegT.jpg');
+  color: white;
+  background-size: cover;
+  background-position: 0 bottom;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 25px;
+  letter-spacing: 4px; 
+  padding: 10px 10rem;
+}
+
+.header h2 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px 5rem;
+}
+
+/*左邊個人簡介*/
+.profilePic {
+  width: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 40px auto;
+}
+
+.me{
+  width: 250px;
+  height: 250px;
+  background-image: url('https://i.imgur.com/xIJ2brY.jpg');
+  background-position:center;
+  background-size: cover;
+  border-radius: 50%;
+  text-align:center;
+  margin-right:35px;
+}
+
+.left table {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.left th,td{
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  line-height: 30px;
+}
+
+.left th {
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.left td {
+  font-size: 10px;
+}
+
+/*右邊*/
+.profile,.work,.art{
+  margin-bottom: 30px;
+}
+
+.right h2 {
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: 900;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.photo h3{
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  padding-top:10px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align:center;
+}
+
+.design h3{
+  letter-spacing: 2px;
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  padding-top:10px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align:center;
+}
+
+.profile .listExperience>li{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.profile .listExperience>li:nth-child(1) ul{
+  border-color: peru;
+}
+.profile .listExperience>li:nth-child(2) ul{
+  border-color: saddlebrown;
+}
+.profile .listExperience>li:nth-child(3) ul{
+  border-color: maroon;
+}
+
+.profile .listExperience li ul{
+  padding-left: 10px;
+  border-left: solid 4px white;
+  margin-left: 10px;
+}
+
+.work ul li {
+  display: inline-block;
+  width: 49%;
+  padding: 10px 0px;
+  
+}
+
+.work .bar {
+  width: 250px;
+  height: 15px;
+  background-color: #ededed;
+  margin-top: 5px;
+}
+
+.work .bar .p1 {
+  width: 90%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.work .bar .p2 {
+  width: 50%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.work .bar .p3 {
+  width: 60%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.work .bar .p4 {
+  width: 80%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.work .bar .p5 {
+  width: 90%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.work .bar .p6 {
+  width: 75%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.photo {
+  margin-left:25px;
+  width:260px;
+  height:300px;
+  background-color: beige;
+  margin-bottom:-30px;
+  display: inline-block;
+}
+
+.picture{
+  background-image: url('https://i.imgur.com/kwPQqNP.jpg');
+  width:200px;
+  height:150px;
+  background-size:cover;
+  text-align: center;
+  margin-left:30px;
+}
+
+.design {
+  width:260px;
+  height:300px;
+  background-color: beige;
+  float: right;
+  display: inline-block;
+}
+
+.indesgin{
+background-image: url('https://i.imgur.com/fFFc60q.jpg');
+  width:200px;
+  height:150px;
+  background-size:cover;
+  text-align: center;
+  margin-left:30px;
+}
+
+input {
+    border: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #e2dddd;
+    color: #000;
+    border-radius: 10px;
+    float: center;
+    font-size: 20px;
+    cursor: pointer;
+}
